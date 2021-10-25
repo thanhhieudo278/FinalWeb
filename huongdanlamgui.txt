@@ -1,0 +1,59 @@
+file index.html ( page home ):
+đã hoàn thiện những cái phần chung của tất cả trang
+
+nv copy phần chung đấy sang các trang khác:
+	-/ Gasoline pump 1: 
+			1.input-GP1.html
+			2.tables-GP1.html
+			3.charts-GP1.html
+	-/ Gasoline pump 2: 
+			1.input-GP2.html
+			2.tables-GP2.html
+			3.charts-GP2.html
+	-/ Gasoline pump 3: 
+			1.input-GP3.html
+			2.tables-GP3.html
+			3.charts-GP3.html
+	-/ Gasoline pump 4: 
+			1.input-GP4.html
+			2.tables-GP4.html
+			3.charts-GP4.html
+	
+	
+	-/ setting.html
+	-/ notification.html
+	-/ PrivacyPolicy.html
+	-/ TermsConditions.html
+	---------------------------
+
+
+	Thanh Hiếu
+	-/ login.html
+	-/ password.html
+	-/ register.html
+
+
+
+
+
+cách làm :
+	copy từ file index.html:
+	-/ copy từ dòng 27 ( <!-- copy phần chung của các trang từ đây--> ) -> 165 ( <!--copy phần chung đến đây hết--> )
+
+	-/ copy từ dòng 244 (<!--copy phần đuôi chung html --> ) -> 257 (<!--copy phần đuôi chung html --> )
+
+và
+ 
+Dũng làm nội dung cho:
+	-/ setting.html
+	-/ notification.html
+	-/ PrivacyPolicy.html
+	-/ TermsConditions.html
+
+Trung Hiếu làm nội dung:
+	-/ charts-GP1.html
+	-/ charts-GP2.html
+	-/ charts-GP3.html
+	-/ charts-GP4.html
+	
+	

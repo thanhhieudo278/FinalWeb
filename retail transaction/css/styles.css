@@ -3948,6 +3948,7 @@ textarea.form-control-lg {
 }
 
 .nav {
+  margin-top: 20pt;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -7834,6 +7835,58 @@ textarea.form-control-lg {
   background-size: cover;
  }
 
+ /* nhân bản class .bg-primary để làm card cho GP1  */
+
+ .bg-GP1 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-image: url('gaspump1.jpg');
+  
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bg-GP2 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-image: url('gaspump2.jpg');
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bg-GP3 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-image: url('gaspump3.jpg');
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bg-GP4 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-image: url('gaspump4.jpg');
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -11329,6 +11382,7 @@ body {
 }
 
 #layoutSidenav {
+  
   display: flex;
 }
 #layoutSidenav #layoutSidenav_nav {
@@ -11743,8 +11797,35 @@ input[id=total]{
   margin-left: 50pt;
 }
 
-input[id=submit]{
-
+input[id=search]{
+  margin-left: 40pt;
+  
 }
+/* nut add , update, remove, search */
+
+input[id=add] {
+  width: 70pt;
+}
+
+input[id=remove]{
+  margin-left: 8.85%;
+  width: 70pt
+}
+
+input[id=update]{
+  margin-left: 8.85%;
+  width: 70pt
+}
+
+input[id=searchbtn]{
+  width: 70pt
+}
+
+input[type=button]{
+  margin: 1%;
+  font-weight: bold;
+}
+
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
