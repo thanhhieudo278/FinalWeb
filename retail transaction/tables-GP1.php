@@ -215,7 +215,7 @@
                                     </tfoot>
                                     <tbody>
                                        <?php
-                                            include("test.php") 
+                                            include("phpfolder/table1.php") 
                                         ?>
                                     </tbody>
                                 </table>

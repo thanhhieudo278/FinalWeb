@@ -172,19 +172,19 @@
                         </ol>
                         <div class="card mb-4">
                             <div class="card-body">
-                                <form action="#" method="POST" name="laform">
-                                    Date:  <input type="date" id="date" /> <br/>
-                                    Types: <input type="text" id="types" /> <br/>
-                                    Old capacity: <input type="number" id="oldcap" /> <br/>
-                                    New capacity: <input type="number" id="newcap" /> <br/>
-                                    Volume: <input type="number" id="volume" /> <br/>
-                                    Price: <input type="number" id="price" /> <br/>
+                            <form action="phpfolder/inputGp2.php" method="POST" name="laform">
+                                    Date:  <input type="date" id="date" name="date"/> <br/>
+                                    Types: <input type="text" id="types" name="type"/> <br/>
+                                    Old capacity: <input type="number" id="oldcap"  name="oldcap"/> <br/>
+                                    New capacity: <input type="number" id="newcap" name="newcap"/> <br/>
+                                    Volume: <input type="number" id="volume" name="volume"/> <br/>
+                                    Price: <input type="number" id="price" name="price"/> <br/>
                                     Total: <input type="number" id="total" /> <br/>
                                     Search: <input type="text" id="search" /> <br/>
-                                    <input type="button" onclick="" value="Add" id="add" />
-                                    <input type="button" onclick="" value="Upgrade" id="upgrade" />
-                                    <input type="button" onclick="" value="Remove" id="remove" />
-                                    <input type="button" onclick="" value="Search" id="searchbtn" />
+                                    <input type="submit" value="Add" id="add" name = "add" />
+                                    <input type="submit" onclick="" value="Update" id="update" name="update"/>
+                                    <input type="submit" onclick="" value="Remove" id="remove" name="delete"/>
+                                    <input type="submit" onclick="" value="Search" id="searchbtn" />
                                 </form>
                             </div>
                         </div>
