@@ -11826,6 +11826,22 @@ input[type=button]{
   font-weight: bold;
 }
 
+/* ĐỔI PASS */
+input[id=cpass]{
+  margin-left: 1%;
+}
 
+input[id=npass]{
+  margin-left: 2.75%;
+}
+
+input[id=cfpass]{
+  margin-left: 0.7%;
+}
+
+pp{
+  margin: 1%;
+  font-weight: bold;
+}
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
