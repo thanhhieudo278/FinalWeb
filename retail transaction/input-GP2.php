@@ -179,12 +179,10 @@
                                     New capacity: <input type="number" id="newcap" name="newcap"/> <br/>
                                     Volume: <input type="number" id="volume" name="volume"/> <br/>
                                     Price: <input type="number" id="price" name="price"/> <br/>
-                                    Total: <input type="number" id="total" /> <br/>
-                                    Search: <input type="text" id="search" /> <br/>
+                                    
                                     <input type="submit" value="Add" id="add" name = "add" />
                                     <input type="submit" onclick="" value="Update" id="update" name="update"/>
                                     <input type="submit" onclick="" value="Remove" id="remove" name="delete"/>
-                                    <input type="submit" onclick="" value="Search" id="searchbtn" />
                                 </form>
                             </div>
                         </div>

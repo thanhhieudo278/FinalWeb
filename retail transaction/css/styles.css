@@ -11768,7 +11768,7 @@ body {
 /* form input cho nhập số liệu*/
 input[id=date]{
   margin-left: 50pt;;
-  width: 148.5pt;
+  width: 142.5pt;
 }
 
 input[id=types]{
@@ -11804,16 +11804,17 @@ input[id=search]{
 /* nut add , update, remove, search */
 
 input[id=add] {
+  margin-top: 10pt;
   width: 70pt;
 }
 
 input[id=remove]{
-  margin-left: 8.85%;
+  margin-left: 5pt;
   width: 70pt
 }
 
 input[id=update]{
-  margin-left: 8.85%;
+  margin-left: 5pt;
   width: 70pt
 }
 
@@ -11832,7 +11833,7 @@ input[id=cpass]{
 }
 
 input[id=npass]{
-  margin-left: 2.75%;
+  margin-left: 2.3%;
 }
 
 input[id=cfpass]{
