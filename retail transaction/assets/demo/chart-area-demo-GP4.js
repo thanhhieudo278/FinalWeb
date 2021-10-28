@@ -13,13 +13,13 @@ var myLineChart = new Chart(ctx, {
     datasets: [{
       label: "Sessions",
       lineTension: 0.3,
-      backgroundColor: "rgba(255,106,106,0.2)",
-      borderColor: "rgba(255,106,106,1)",
+      backgroundColor: "rgba(2,117,216,0.2)",
+      borderColor: "rgba(2,117,216,1)",
       pointRadius: 5,
-      pointBackgroundColor: "rgba(255,106,106,1)",
-      pointBorderColor: "rgba(255,106,106,0.8)",
+      pointBackgroundColor: "rgba(2,117,216,1)",
+      pointBorderColor: "rgba(255,255,255,0.8)",
       pointHoverRadius: 5,
-      pointHoverBackgroundColor: "rgba(255,106,106,1)",
+      pointHoverBackgroundColor: "rgba(2,117,216,1)",
       pointHitRadius: 50,
       pointBorderWidth: 2,
       data: [100, 120, 154, 486, 125, 365, 256, 248, 379, 246, 354, 268, 687, 555, 467, 387, 651, 234, 200, 178, 562, 389, 239, 450, 552, 430,
@@ -55,3 +55,4 @@ var myLineChart = new Chart(ctx, {
     }
   }
 });
+
