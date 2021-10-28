@@ -6,14 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Setting</title>
+        <title>My account</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="sb-nav-fixed">
+        
+
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.php">RETAIL TRANSACTION</a>
+            <a class="navbar-brand ps-3" href="index.php">
+                RETAIL TRANSACTION
+                </a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -23,7 +28,7 @@
                     <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
                 </div>
             </form>
-            <!-- copy phần chung của các trang từ đây-->
+<!-- copy phần chung của các trang từ đây-->
             <!-- Navbar-->
             <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
                 <li class="nav-item dropdown">
@@ -162,43 +167,66 @@
                 </nav>
             </div>
             <!--copy phần chung đến đây hết-->
-            
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">My account</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="index.php">
+                                Home
+                                </a></li>
                             <li class="breadcrumb-item active">My account</li>
                         </ol>
+                        
                         <div class="card mb-4">
-                            <pp>PROFILE</pp>
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                PROFILE
+                            </div>
                             <div class="card-body">
-                                        <form action="#" method="POST" name="laform">
-                                            <p>Tên: Hiệu Quốc Chính</p>
-                                            <p>E-mail: hieuquocchinh@gmail.com</p>
-                                        </form>
-                            </div>  
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>Fisrt name</th>
+                                            <th>Last name</th>
+                                            <th>Email</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Fisrt name</th>
+                                            <th>Last name</th>
+                                            <th>Email</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <?php
+                                                include("phpfolder/settingaccount.php") 
+                                            ?>
+                                    </tbody>
+                                </table>
+                                
+                                
+                            </div>
                         </div>
-
-                        <div class="card mb-4">
+                        
                             <pp>CHANGE PASSWORD</pp>
                             <div class="card-body">
-                                        <form action="#" method="POST" name="laform">
-                                            Current password: <input type="text" id="cpass" /> <br/>
-                                            New password: <input type="text" id="npass" /> <br/>
-                                            Confirm password: <input type="text" id="cfpass" /> <br/>
-                                            <input type="button" onclick="" value="Change" id="change" />
+                                        <form action="phpfolder/settingphp.php" method="POST" >
+                                            Current password: <input name = "cpass" id = "cpass"  type="password"   /> <br/>
+                                            New password: <input name = "npass" id = "npass" type="password"   /> <br/>
+                                            Confirm password: <input type="password" name = "cfpass" id = "cfpass" /> <br/>
+                                            <input class="btn btn-primary btn-block" type="submit" value="Change password" name = "Change" id = "change" /></div>                                                                                           
                                         </form>
                             </div>
-                            
                         </div>
-                        <div style="height: 100vh"></div>
+                        
                         
                     </div>
                 </main>
-                <!--copy phần đuôi chung html -->
-                <footer class="py-4 bg-light mt-auto">
+                 <!--copy phần đuôi chung html -->
+                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
                             <div class="text-muted">Copyright &copy; Group 9 Website</div>
@@ -213,9 +241,9 @@
                 <!--copy phần đuôi chung html -->
             </div>
         </div>
-
-        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
     </body>
 </html>

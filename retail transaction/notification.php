@@ -174,9 +174,41 @@
                         
                         <div class="card mb-4">
                             <div class="card-body">
-                                
+                                  <p><b>Thông báo hệ thống bảo trì</b><br /> Web sẽ tạm đóng để bảo trì trong ngày 30/10/2021
+                                . Hệ thống sẽ truy cập bình thường vào ngày 31/10/2021. Xin chân thành cảm ơn</p>
                             </div>
-                            
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                 <p><b>Thông báo tạm dừng cung cấp dịch vụ</b><br /> Thông báo: Cửa hàng xăng dầu số 1 sẽ 
+                                    tạm ngưng hoạt động bơm xăng dầu từ ngày 20/10/2021 đến ngày 28/10/2021 do một số vấn 
+                                    đề đầu vào</p>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                 <p><b>Điều chỉnh giá bán lẻ xăng dầu</b><br /> Mức giá mới có hiệu lực từ thời điểm 15 
+                                    giờ 00 ngày 26 tháng 8 năm 2021 cho đến khi có thông cáo báo chí (TCBC) mới. Giá xăng 
+                                    dầu do Petrolimex công bố tại TCBC này áp dụng tại hệ thống phân phối của Petrolimex 
+                                    trên lãnh thổ Việt Nam; gồm: (a) Các cửa hàng xăng dầu (CHXD) Petrolimex; (b) CHXD của 
+                                    các thương nhân làm đại lý, tổng đại lý bán xăng dầu của Petrolimex và (c) CHXD của các 
+                                    thương nhân nhận quyền bán lẻ dưới hình thức nhượng quyền thương mại từ Petrolimex. Giá 
+                                    xăng dầu do Petrolimex công bố tại TCBC này không áp dụng đối với các CHXD thuộc hệ thống 
+                                    phân phối của thương nhân phân phối xăng dầu và không có dấu hiệu nhận diện thương hiệu 
+                                    Petrolimex.</p>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                 <p><b>Công bố tổng đài dịch vụ khách hàng</b><br /> Từ ngày 15.9.2021, Hệ thống tổng đài 
+                                    dịch vụ khách hàng Petrolimex sẽ được triển khai vận hành trên toàn quốc và hoạt động 
+                                    liên tục 24/7/365 dựa trên nền tảng công nghệ hiện đại, tính năng kết nối và tương tác 
+                                    đa dạng như: Hotline, email, chat zalo…, giúp tăng hiệu quả trao đổi thông tin, hướng 
+                                    dẫn tiêu dùng; tiếp nhận và xử lý đồng bộ các phản ảnh, góp ý của khách hàng về hàng 
+                                    hóa, dịch vụ do Petrolimex cung cấp. Hệ thống là một trong những giải pháp gắn với 
+                                    mục tiêu chiến lược quản trị hiện đại, ứng dụng tin học hóa, tự động hóa triệt để, 
+                                    đẩy mạnh chuyển đổi số trong hoạt động sản xuất kinh doanh tại Petrolimex.</p>
+                            </div>
                         </div>
                         <div style="height: 100vh"></div>
                         

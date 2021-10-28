@@ -11829,17 +11829,22 @@ input[type=button]{
 
 /* ĐỔI PASS */
 input[id=cpass]{
-  margin-left: 1%;
+  margin-left: 9.5pt;
+  
 }
 
 input[id=npass]{
-  margin-left: 2.3%;
+  margin-left: 25pt;
 }
 
 input[id=cfpass]{
-  margin-left: 0.7%;
+  margin-left: 7pt;
 }
 
+input[id=change]{
+  margin-top: 16pt;
+  margin-left: 66pt;
+}
 pp{
   margin: 1%;
   font-weight: bold;

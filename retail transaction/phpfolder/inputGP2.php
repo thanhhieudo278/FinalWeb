@@ -28,6 +28,7 @@ if(isset($_POST['add']))
         {
             $alert1 = "<script>alert('New Information Entry inserted successfully!');</script>";
             echo $alert1;
+            header("Location: http://localhost/project/retail%20transaction/input-GP2.php");
         }
     else
         {
@@ -47,6 +48,7 @@ if(isset($_POST['delete']))
         {
             $alert1 = "<script>alert('Deleted successfully!');</script>";
             echo $alert1;
+            header("Location: http://localhost/project/retail%20transaction/input-GP2.php");
         }
     else
         {
@@ -72,6 +74,7 @@ if(isset($_POST['update']))
         {
             $alert1 = "<script>alert('Information Updated successfully!');</script>";
             echo $alert1;
+            header("Location: http://localhost/project/retail%20transaction/input-GP2.php");
         }
     else
         {   
